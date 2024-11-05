@@ -118,18 +118,13 @@ header {
 .job {
   font-size: 3.8rem;
   text-transform: capitalize;
-  font-family: "Roboto", serif;
-  font-weight: 400;
-  font-style: normal;
 
   margin-bottom: 1rem;
 }
 
 .about-me {
   font-size: 2.4rem;
-  font-family: "Roboto", serif;
-  font-weight: 400;
-  font-style: normal;
+
 }
 
 .main-img img {
@@ -326,7 +321,7 @@ purple: {
 
 }
 
-/* todo : باید نوشته های اسم نویسنده و شغل باید کامل کل خط و اینا رو بگیره  */
+
 /* todo 1-قسمت مهارت ها نمایش یده و سعی کن یه ایکون بر خط برای ها مهارت داشته باشی
 */
 
@@ -349,13 +344,7 @@ purple: {
     display: none;
   }
 
-  .skill-section {
-    display: none;
-  }
 
-  .main-img {
-    display: none;
-  }
 
   .basic-css {
     padding: 0;
@@ -369,11 +358,11 @@ purple: {
     justify-content: flex-start;
     /* align-content: flex-end; */
     align-content: cente;
-
   }
 
-  .description {
-    width: 90vw;
+  .decription {
+    display: block;
+    width: 70%;
   }
 
   .author {
@@ -397,6 +386,13 @@ purple: {
     font-size: 1.8rem;
   }
 
+  .skill-section {
+    display: none;
+  }
+
+  .main-img {
+    display: none;
+  }
 
 }
 
