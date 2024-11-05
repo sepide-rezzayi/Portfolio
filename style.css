@@ -386,8 +386,9 @@ purple: {
     font-size: 1.8rem;
   }
 
-  .skill-section {
-    display: none;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .main-img {
