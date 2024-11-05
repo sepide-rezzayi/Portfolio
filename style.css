@@ -321,10 +321,6 @@ purple: {
 
 }
 
-
-/* todo 1-قسمت مهارت ها نمایش یده و سعی کن یه ایکون بر خط برای ها مهارت داشته باشی
-*/
-
 /*! media Quarey */
 /* ? mobile  */
 @media (max-width: 414px) {
@@ -363,6 +359,8 @@ purple: {
   .decription {
     display: block;
     width: 70%;
+    height: 40vh;
+    text-align: center;
   }
 
   .author {
@@ -371,10 +369,12 @@ purple: {
 
   .job {
     font-size: 2.4rem;
+    margin-top: 1.8rem;
   }
 
   .about-me {
     font-size: 1.8rem;
+    margin-top: 1.8rem;
   }
 
   .btn-contact {
@@ -408,4 +408,42 @@ purple: {
 }
 
 /* ?tablat */
-@media((max-width: 768px)) {}
+@media(max-width: 668px) {
+
+  .author {
+    font-size: 3.2rem;
+  }
+
+  .job {
+    margin-top: 1.2rem;
+    font-size: 2.2rem;
+  }
+
+  .about-me {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .btn-contact {
+    /* margin-bottom: 1.8rem; */
+    margin-top: 9.6rem;
+  }
+
+  .btn-contact a {
+    font-size: 1.8rem;
+  }
+
+  .btn-contact svg {
+    width: 1.8rem;
+    margin-left: 1.2rem;
+
+  }
+
+
+
+
+  .main-img img {
+    width: 40vw;
+    height: 60vh;
+  }
+}
